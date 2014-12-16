@@ -1,0 +1,32 @@
+{
+  "name": "node-dao",
+  "version": "1.0.0",
+  "description": "Data access interface in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sweetvvck/node-dao.git"
+  },
+  "keywords": [
+    "node",
+    "dao",
+    "dynamodb",
+    "mongodb"
+  ],
+  "author": "Sweetvvck <sweetvvck@gmail.com> (http://blog.csdn.net/sweetvvck)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sweetvvck/node-dao/issues"
+  },
+  "homepage": "https://github.com/sweetvvck/node-dao",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tape": "2.12.3",
+    "debug": "0.8.1",
+    "rewire": "2.1.3"
+  }
+}
